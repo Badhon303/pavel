@@ -1,6 +1,6 @@
 import Image from "next/image"
-import design from "@/public/assets/images/project-web-design.png"
-import fire from "@/public/assets/images/project-fire.png"
+import dgs from "@/public/assets/images/dgs.png"
+import jci from "@/public/assets/images/jci.png"
 import maps from "@/public/assets/images/project-maps.png"
 
 const HighLight = () => {
@@ -17,8 +17,8 @@ const HighLight = () => {
           <div className="shrink-0">
             <a href="https://www.facebook.com/JCIDhkUnited?mibextid=JRoKGi">
               <Image
-                className="h-36 w-36 hover:translate-y-1"
-                src={fire}
+                className="h-24 w-36 hover:translate-y-1"
+                src={jci}
                 alt="Project Web Design"
                 loading="lazy"
               />
@@ -71,8 +71,8 @@ const HighLight = () => {
           <div className="shrink-0">
             <a href="https://m.facebook.com/doubleglazingsolutions.bd?mibextid=JRoKGi">
               <Image
-                className="h-36 w-36 hover:translate-y-1"
-                src={design}
+                className="h-32 w-36 hover:translate-y-1"
+                src={dgs}
                 alt="Project Fire"
                 loading="lazy"
               />
