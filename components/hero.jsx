@@ -9,6 +9,14 @@ const Hero = () => {
   return (
     <div className="mx-auto max-w-screen-lg px-3 py-6">
       <div className="flex flex-col items-center md:flex-row md:justify-between md:gap-x-24">
+        <div className="shrink-0 pb-20">
+          <Image
+            className="h-80 w-64"
+            src={avatar}
+            alt="Avatar image"
+            loading="lazy"
+          />
+        </div>
         <div>
           <h1 className="text-3xl font-bold">
             Hi there, I&apos;m{" "}
@@ -74,14 +82,6 @@ const Hero = () => {
               />
             </a>
           </div>
-        </div>
-        <div className="shrink-0">
-          <Image
-            className="h-80 w-64"
-            src={avatar}
-            alt="Avatar image"
-            loading="lazy"
-          />
         </div>
       </div>
     </div>
