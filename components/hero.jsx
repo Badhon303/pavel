@@ -34,7 +34,7 @@ const Hero = () => {
             👋
           </h1>
           <p className="mt-6 text-xl leading-9">
-            the Local President of{" "}
+            The Local President of{" "}
             <a
               className="text-cyan-400 hover:underline"
               href="https://www.facebook.com/JCIDhkUnited?mibextid=JRoKGi"
