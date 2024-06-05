@@ -27,16 +27,20 @@ const Header = () => {
         <nav>
           <ul className="flex gap-x-3 font-medium text-gray-200">
             <li className="hover:text-white">
-              <a href="/demo/astro-boilerplate/posts">Facebook</a>
+              <a href="https://www.facebook.com/mdkamruzzaman.pavel?mibextid=JRoKGi&_rdr">
+                Facebook
+              </a>
             </li>
             <li className="hover:text-white">
-              <a href="/demo/astro-boilerplate">Instagram</a>
+              <a href="http://linkedin.com/in/md-kamruzzaman-pavel-7406931b2">
+                LinkedIn
+              </a>
             </li>
             <li className="hover:text-white">
-              <a href="/demo/astro-boilerplate">LinkedIn</a>
+              <a href="https://wa.me/qr/MFOW7XGE6XETN1">WhatsApp</a>
             </li>
             <li className="hover:text-white">
-              <a href="/demo/astro-boilerplate">WhatsApp</a>
+              <a href="">+880 1929-356971</a>
             </li>
           </ul>
         </nav>
