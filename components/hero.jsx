@@ -9,9 +9,17 @@ const Hero = () => {
   return (
     <div className="mx-auto max-w-screen-lg px-3 py-6">
       <div className="flex flex-col items-center md:flex-row md:justify-between md:gap-x-24">
-        <div className="shrink-0 pb-20">
+        {/* <div className="shrink-0 pb-20">
           <Image
             className="h-80 w-64"
+            src={avatar}
+            alt="Avatar image"
+            loading="lazy"
+          />
+        </div> */}
+        <div className="shrink-0 pb-20">
+          <Image
+            className="rounded-3xl ring-4 ring-[#15b5eb]"
             src={avatar}
             alt="Avatar image"
             loading="lazy"
@@ -26,7 +34,7 @@ const Hero = () => {
             👋
           </h1>
           <p className="mt-6 text-xl leading-9">
-            Lthe Local President of{" "}
+            the Local President of{" "}
             <a
               className="text-cyan-400 hover:underline"
               href="https://www.facebook.com/JCIDhkUnited?mibextid=JRoKGi"
