@@ -21,7 +21,7 @@ const Hero = () => {
             Lthe Local President of{" "}
             <a
               className="text-cyan-400 hover:underline"
-              href="/demo/astro-boilerplate"
+              href="https://www.facebook.com/JCIDhkUnited?mibextid=JRoKGi"
             >
               JCI Dhaka United,
             </a>{" "}
@@ -29,7 +29,7 @@ const Hero = () => {
             change. I&apos;m also the proud owner of{" "}
             <a
               className="text-cyan-400 hover:underline"
-              href="https://dgs.com.bd"
+              href="https://m.facebook.com/doubleglazingsolutions.bd?mibextid=JRoKGi"
             >
               Double Glazing Solutions
             </a>{" "}
